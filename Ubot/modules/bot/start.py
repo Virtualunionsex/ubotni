@@ -75,7 +75,7 @@ async def start_(client: Client, message: Message):
     ADMIN2 = ADMIN2_ID[0]
     await message.reply_text(
         f"""<b>👋 Halo {message.from_user.first_name} \n
-💭 Selamat Datang Fairy Ubot Prrmium
+💭 Selamat Datang di Fairy Ubot Prrmium
 ❓ Apa saja sih fiturnya?,kalo mau lihat fitur ubotnya, pm ke admin dibawah ini.
 💡 Jika ingin membuat Userbot premium ataw ingin menjadi reseller kami. Kamu bisa hubungin admin dibawah ini membuat bot.</b>""",
         reply_markup=InlineKeyboardMarkup(
@@ -85,7 +85,7 @@ async def start_(client: Client, message: Message):
                     InlineKeyboardButton(text="👮‍♂ Admin 2", url=f"https://t.me/makorikara"),
                 ],
 		[
-		    InlineKeyboardButton(text="Support", url=f"https://t.me/executivebanget"),
+		    InlineKeyboardButton(text="Support", url=f"https://t.me/fairysupport"),
 		],
 		[
                      InlineKeyboardButton(text="Tutup", callback_data="cl_ad"),
