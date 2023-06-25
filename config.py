@@ -26,7 +26,7 @@ ADMIN4_ID.append(5657257558)
 MONGO_URL = getenv("MONGO_URL", "mongodb+srv://claypronek:Malik10_@cluster0.xtwc7.mongodb.net/?retryWrites=true&w=majority")
 BOT_TOKEN = getenv("BOT_TOKEN", "6050133470:AAEj0R_Y0EUfsLLb8gYClqpaf5oYuZsIhyg")
 BOT_WORKERS = int(getenv("BOT_WORKERS", "5"))
-USER_WORKERS = int(getenv("BOT_WORKERS", "15"))
+USER_WORKERS = int(getenv("BOT_WORKERS", "20"))
 PM_AUTO_BAN = strtobool(getenv("PM_AUTO_BAN", "True"))
 ALIVE_PIC = getenv("ALIVE_PIC")
 ALIVE_TEXT = getenv("ALIVE_TEXT")
@@ -37,8 +37,8 @@ BLACKLIST_GCAST = {int(x) for x in getenv("BLACKLIST_GCAST", "-1001566281443").s
 GIT_TOKEN = getenv("GIT_TOKEN") #personal access token
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
-BRANCH = getenv("BRANCH", "amang") #don't change
-REPO_URL = getenv("REPO_URL", "https://github.com/virtualunionsex/AmangUbot")
+BRANCH = getenv("BRANCH", "Fairy") #don't change
+REPO_URL = getenv("REPO_URL", "https://github.com/Malik/Cuan")
 CMD_HNDLR = getenv("CMD_HNDLR", ".")
 SUPPORT = int(getenv("SUPPORT", "-1001528080636"))
 CHANNEL = int(getenv("CHANNEL", "-1001841693247"))
