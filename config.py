@@ -1,4 +1,4 @@
-4import os
+import os
 from os import getenv
 from dotenv import load_dotenv
 from distutils.util import strtobool
