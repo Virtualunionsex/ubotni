@@ -7,11 +7,11 @@ from distutils.util import strtobool
 load_dotenv(".env")
 
 
-API_ID = int(getenv("API_ID", "28094601")) #optional
-API_HASH = getenv("API_HASH", "70756c6b7f3bf1d996ab7d157b270970") #optional
+API_ID = int(getenv("API_ID", "26780897")) #optional
+API_HASH = getenv("API_HASH", "508a62724964c13ccc250ca21189fe54") #optional
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "1715348447").split()))
 DEEP_AI = getenv("DEEP_AI", "d7394561-0528-4714-a1ee-edd7020b48e1")
-OWNER_ID = int(getenv("OWNER_ID") or 6080624164)
+OWNER_ID = int(getenv("OWNER_ID") or 6233321769)
 ADMIN1_ID = list(map(int, getenv("ADMIN1_ID", "6080624164").split()))
 ADMIN2_ID = list(map(int, getenv("ADMIN2_ID", "1715348447").split()))
 ADMIN3_ID = list(map(int, getenv("ADMIN2_ID", "5633133204").split()))
@@ -24,7 +24,7 @@ ADMIN3_ID.append(5633133204)
 ADMIN4_ID.append(5657257558)
 
 MONGO_URL = getenv("MONGO_URL", "mongodb+srv://Menfess:<password>@cluster0.0q7u10d.mongodb.net/?retryWrites=true&w=majority")
-BOT_TOKEN = getenv("BOT_TOKEN", "6050133470:AAEj0R_Y0EUfsLLb8gYClqpaf5oYuZsIhyg")
+BOT_TOKEN = getenv("BOT_TOKEN", "5995049651:AAH6P7YqSOEtoYiTLiPpzsg9aw-8mAaATj8")
 BOT_WORKERS = int(getenv("BOT_WORKERS", "2"))
 USER_WORKERS = int(getenv("BOT_WORKERS", "8"))
 PM_AUTO_BAN = strtobool(getenv("PM_AUTO_BAN", "True"))
@@ -45,7 +45,7 @@ CHANNEL = int(getenv("CHANNEL", "-1001841693247"))
 SESSION1 = getenv("SESSION1", "BQAhIHQALwRIGakVYWr1ITyivjLButIE5dV68jY8XSsOpoF2ufGT6OHE6wTUBU54sUlJ61uJf3DFnPboBUvg1_ZmXIbTBqn7ZmlutBFyYu8uydEYN3JxAzsaAK7OproKdBWSEP9ZRDriPRQeho0jg6HZbLCEqjYh9zx0tIuntlbzMIKrr1CQ9ZLwdmXIcCnYLuI0ZNqBmgmRUcrsm7hCBvusoLuWIY8UrUM7G6XbW8BGecI_ynr-UakxaBlKXnqQDRoK7TAeFLhquqjVVWhYMDQbY7_22U7AvnRwlL16K0BK9Ad9rGRwVmZzamE0N90Xi2NfMIxlLmHAR8HGWuQHydwu3pExXAAAAAB_3XRvAA")
 SESSION2 = getenv("SESSION2", "BQAhIHQAIqEt9iLnnuVSZ0klCr2WFernpb7tjhPSII8vDre7xxDlQBjFStMzFUlIyNBRukCgJjeV5Qc2u9AKGGTPGtlxw7D1sJgK4xXYJwmwmBpIsCnMocMjDYGHVC-25C48e1wKlmDa7yu6SS2vBQI-uJkDi_T7KpThVEolzJSnpJRWXnIFjnOGUNj0UPpiNbsG1rBpY3gifLgN0x1N81yr8_q8cdD9ptD4xvBMI_MZuHtnGPj95u_uk9NGFOdqdB_IjryuIC2SyM2SGWhmk1xa77bwKpd1X7g0KvIzY5KR2giD35z6e0gL8I8_EOf1C_rqci6Esx2WaMET6noBDLLOxQU6kQAAAAB00RupAA") 
 SESSION3 = getenv("SESSION3", "BQAhIHQAJiJtV2Cv0iUr9ULbizlYm0sklVhV_4aLy0vynqdOQ4Db6a3EdOufbC9GhEMR5i7zHDSpmoXyXxVrqZ1sku_N0Hgk_n-XYmrup9_XhFSCenOJkadXuXVVEVYsJz8w2_mComLJ-3HfmG_jbjAdLxFsELqi1Zj-M1844R166siAhpdTvA0IfI0EsOOb1zIgQm4uqRCSnp90jURjIlLgqr9FDbhn_BZbzCvgQc22OkTlOFAvn_2Vqg04JHaMr4Lle3gPArwNboZBbhVQjWYlr5Smt_tLWWwddTkRFoA5Sc5HDu67V6qdM54b_1vZt3dQZTP00GaeuZJLjU_zSHN6Ch8D-gAAAABLyUKTAA")
-SESSION4 = getenv("SESSION4", "")
+SESSION4 = getenv("SESSION4", "AQAhIHQAMFXAYqAV_7wJHY0C_PKJ1_-qmipMp4bU1_pO9hGsjTUpiQaR6d214pky-8anWUqgueNyvmRuk9cDhwx-igE-Ce115trmWc5AEGm-AHv9dkn8ySrGRUtqZpslv8tshWzmYpdOBWb-d17yq2obqruDAOwpxiFyN6gQIUTP4ThnPBk-f13_28MdhLBuNKgo3pXaejbTqGM61PiPqbBNQIkr2_FHcnMaiNUpTkO-UU-VHujuQC7XHJFSAeOwbFMCT5S0zzAtN9WceeIlrC068d7IghyqSzgqZrtsPDG84k2jKlXJgNegWoxPrr03Q9K4o-SSRPOXk9DUACVdg81U7FIdLgAAAAFziPEpAA")
 SESSION5 = getenv("SESSION5", "")
 SESSION6 = getenv("SESSION6", "")
 SESSION7 = getenv("SESSION7", "")
