@@ -23,7 +23,7 @@ ADMIN2_ID.append(1715348447)
 ADMIN3_ID.append(5633133204)
 ADMIN4_ID.append(5657257558)
 
-MONGO_URL = getenv("MONGO_URL", "mongodb+srv://claypronek:Malik10_@cluster0.xtwc7.mongodb.net/?retryWrites=true&w=majority")
+MONGO_URL = getenv("MONGO_URL", "mongodb+srv://Menfess:<password>@cluster0.0q7u10d.mongodb.net/?retryWrites=true&w=majority")
 BOT_TOKEN = getenv("BOT_TOKEN", "6050133470:AAEj0R_Y0EUfsLLb8gYClqpaf5oYuZsIhyg")
 BOT_WORKERS = int(getenv("BOT_WORKERS", "2"))
 USER_WORKERS = int(getenv("BOT_WORKERS", "8"))
